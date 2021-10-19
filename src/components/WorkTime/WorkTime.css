@@ -1,0 +1,12 @@
+.workTime-area{
+   background-image: url('../../images/banner.jpg');
+}
+.time-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.time-icon{
+    color: rgb(61, 192, 61);
+    font-size: 30px;
+}

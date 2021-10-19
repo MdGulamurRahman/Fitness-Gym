@@ -1,0 +1,15 @@
+.header-area{
+    background-image: url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.s-area{
+    height: 700px;
+}
+
+@media only screen and (max-width: 668px){
+    .s-area{
+        height: 250px;
+    }
+}

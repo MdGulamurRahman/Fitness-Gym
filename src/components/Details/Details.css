@@ -1,0 +1,11 @@
+.details-area{
+    background-image: url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media only screen and (max-width: 668px){
+      .detail-img{
+          width: 450px;
+      }
+  }

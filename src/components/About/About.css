@@ -1,0 +1,25 @@
+.about-area{
+    background-image: url('../../images/about1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-clr{
+    color: tomato;
+}
+.about-text{
+    border-radius: 0px 50px 0px 50px;
+    background-color: rgb(214, 246, 255);
+    padding: 30px;
+    border-top: 5px solid tomato;
+}
+.about-text2{
+     border-radius: 50px 0px 50px 0px;
+    background-color: rgb(214, 246, 255);
+    padding: 30px;
+    border-top: 5px solid tomato;
+}

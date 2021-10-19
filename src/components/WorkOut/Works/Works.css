@@ -1,0 +1,9 @@
+.works-container{
+    padding-bottom: 100px;
+}
+.works-area{
+    background-color: rgb(173, 250, 255);
+}
+.works-area h1 span{
+    color: tomato;
+}

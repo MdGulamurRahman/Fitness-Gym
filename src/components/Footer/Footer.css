@@ -1,0 +1,43 @@
+.footer-area{
+    background-color: #010103;
+    padding-bottom: 70px;
+}
+.footer-img{
+    width: 80px;
+}
+.f-img{
+    margin-left: 560px;
+}
+.exercise{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.fab{
+    font-size: 30px;
+    color: rgb(71, 212, 255);
+}
+.fab-icon{
+    margin-left: 574px;
+    padding-bottom: 50px;
+}
+.fit-clr{
+    color: tomato;
+}
+
+@media only screen and (max-width: 668px){
+    .f-img{
+        margin-left: 104px;
+        width: 50%;
+    }
+    .exercise{
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .fab-icon{
+        margin-left: 114px;
+        padding-bottom: 50px;
+    }
+    .contact-us{
+        margin-top: 30px;
+    }
+}

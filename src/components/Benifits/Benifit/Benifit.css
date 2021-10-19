@@ -1,0 +1,10 @@
+.benifit-card{
+    background-color: rgb(214, 246, 255);
+    border-radius: 50px 0px 50px;
+}
+.benifit-card:hover{
+    box-shadow: 4px 4px 15px rgb(0, 0, 0);
+}
+.text-card{
+    font-weight:900;
+}

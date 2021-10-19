@@ -1,0 +1,38 @@
+.discount-area{
+    background-color: rgb(0, 0, 0);
+}
+
+.discount-btn{
+    padding: 15px 20px;
+    background-color: tomato;
+    color: #fff;
+    font-weight: 500;
+    transition: 1s;
+    border: 0;
+   
+}
+.discount-btn:hover{
+    background-color: rgb(0, 68, 68);
+    color: #fff;
+}
+
+@media only screen and (max-width: 668px){
+    .dis-img{
+        width: 400px;
+        padding-bottom: 50px;
+    }
+    .dis-text{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+@media only screen and (min-width: 669px) and (max-width: 1024px){
+    .dis-img{
+        width: 430px;
+        padding-bottom: 50px;
+    }
+    .dis-text{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
