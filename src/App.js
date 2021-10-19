@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import PrivateRoute from './components/PrivateRouter/PrivateRoute';
 import Details from './components/Details/Details';
 import About from './components/About/About';
+import NotFound from './components/NotFound/NotFound';
 
 
 function App() {
@@ -47,6 +48,9 @@ function App() {
           </PrivateRoute>
           <Route path="/login">
            <Login></Login>
+          </Route>
+          <Route path="*">
+           <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>

@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col col-md-3 col-lg-3">
+                    <div className="col col-md-3 col-lg-3 fitness-about">
                         <h3 className="pb-3 fw-bold text-light">About <span className="fit-clr">FitnessGym</span></h3>
                         <div className="">
                             <Link to="/home" className="text-decoration-none text-info">HOME</Link>

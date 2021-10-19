@@ -25,9 +25,9 @@ const Work = (props) => {
                     
                 </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                 <Link to="services"><button className="work-btn">More Details</button></Link>
-                </Card.Footer>
+                <Card.Text>
+                 <Link to="services"><button className="mb-2 work-btn ms-2">More Details</button></Link>
+                </Card.Text>
             </Card>
             </CardGroup>
                 );

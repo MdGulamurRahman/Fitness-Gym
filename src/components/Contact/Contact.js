@@ -23,7 +23,7 @@ function Contact() {
 
   return (
     <div className="pb-5 overflow-hidden contact">
-      <h1 className="py-5 text-center text-light"><span className="coffee">CONTACT</span> US</h1>
+      <h1 className="py-5 text-center text-light"><span className="text-clr">CONTACT</span> US</h1>
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 map-area">
@@ -47,35 +47,35 @@ function Contact() {
                 <div className="mb-3 row">
                   <label for="name" className="col-sm-2 col-form-label"></label>
                   <div className="input-icon col-sm-10 d-flex align-items-center">
-                    <h3 className="coffee me-2"><FontAwesomeIcon icon={faUserTie} /></h3>
+                    <h3 className="text-info me-2"><FontAwesomeIcon icon={faUserTie} /></h3>
                     <input onBlur={getName} type="name" className="form-control bg-input" id="name" placeholder="name"/>
                   </div>
                 </div>
                 <div className="mb-3 row">
                   <label for="inputEmail3" className="col-sm-2 col-form-label"></label>
                   <div className="input-icon col-sm-10 d-flex align-items-center">
-                  <h3 className="coffee me-2"><FontAwesomeIcon icon={faEnvelope} /></h3>
+                  <h3 className="text-info me-2"><FontAwesomeIcon icon={faEnvelope} /></h3>
                     <input onBlur={getEmail} type="email" className="form-control bg-input" id="inputEmail3" placeholder="email"/>
                   </div>
                 </div>
                 <div className="mb-3 row">
                   <label for="inputPassword3" className="col-sm-2 col-form-label"></label>
                   <div className="col-sm-10 input-icon d-flex align-items-center">
-                  <h3 className="coffee me-2"><FontAwesomeIcon icon={faLock} /></h3>
+                  <h3 className="text-info me-2"><FontAwesomeIcon icon={faLock} /></h3>
                     <input onBlur={getPassword} type="password" className="form-control bg-input" id="inputPassword3" placeholder="password"/>
                   </div>
                 </div>
                 <div className="mb-3 row">
                   <label for="number" className="col-sm-2 col-form-label"></label>
                   <div className="col-sm-10 input-icon d-flex align-items-center">
-                  <h3 className="coffee me-2"><FontAwesomeIcon icon={faPhone} /></h3>
+                  <h3 className="text-info me-2"><FontAwesomeIcon icon={faPhone} /></h3>
                     <input onBlur={getNumber} type="number" className="form-control bg-input" id="number" placeholder="number"/>
                   </div>
                 </div>
                 <div className="mb-3 row">
                   <label for="photoUrl" className="col-sm-2 col-form-label"></label>
                   <div className="col-sm-10 input-icon d-flex align-items-center">
-                  <h3 className="coffee me-2"><FontAwesomeIcon icon={faLink} /></h3>
+                  <h3 className="text-info me-2"><FontAwesomeIcon icon={faLink} /></h3>
                     <input onBlur={getPhoto} type="text" className="form-control bg-input" id="photoUrl" placeholder="PhotoURL"/>
                   </div>
                 </div>

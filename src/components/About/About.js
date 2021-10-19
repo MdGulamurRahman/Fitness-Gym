@@ -23,7 +23,7 @@ const About = () => {
                             <p className="text-secondary">There are numerous health advantages to physical fitness. Regular exercise and physical activity promotes strong muscles and bones. It improves respiratory, cardiovascular health, and overall health. Staying active can also help you maintain a healthy weight, reduce your risk for type 2 diabetes,</p>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6 about-2">
                         <div className="about-text2">
                             <h3 className="text-dark">Increase your life Expectancy</h3>
                             <p className="text-secondary">Numerous studies have shown that regular physical activity increases life expectancy and reduces the risk of premature mortality. There’s not a magic formula that translates hours of physical activity into hours of life gained, but research suggests that people</p>

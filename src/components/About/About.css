@@ -23,3 +23,8 @@
     padding: 30px;
     border-top: 5px solid tomato;
 }
+@media only screen and (max-width:668px){
+    .about-2{
+        margin-top: 48px;
+    }
+}

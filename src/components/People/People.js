@@ -21,7 +21,7 @@ const People = () => {
                             <small className="text-white-50">- Margina Begum</small>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center people">
                         <div>
                             <img className="people-img" src={people2} alt="" />
                         </div>

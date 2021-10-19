@@ -41,3 +41,21 @@
         margin-top: 30px;
     }
 }
+@media only screen and (min-width: 669px) and (max-width:1024px){
+    .f-img{
+        margin-left: 250px;
+        width: 30%;
+    }
+    .exercise{
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .fab-icon{
+        margin-left: 270px;
+        padding-bottom: 50px;
+    }
+    .contact-us{
+        margin-top: 30px;
+    }
+   
+}
