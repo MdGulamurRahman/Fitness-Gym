@@ -65,7 +65,7 @@ const Login = () => {
                                     className="py-2"
                                     required
                                     type="email"
-                                    placeholder="Enter your email address"
+                                    placeholder="Your Email"
                                     aria-label="email"
                                     aria-describedby="basic-addon1"
                                     />
@@ -77,7 +77,7 @@ const Login = () => {
                                     className="py-2"
                                     required
                                     type="password"
-                                    placeholder="Enter your password"
+                                    placeholder="Your Password"
                                     aria-label="password"
                                     aria-describedby="basic-addon1"
                                     />

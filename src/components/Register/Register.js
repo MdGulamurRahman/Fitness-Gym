@@ -1,13 +1,14 @@
 import React from 'react';
 import './Register.css'
-import { Button, Form, FormControl, InputGroup } from 'react-bootstrap';
+import { Form, FormControl, InputGroup } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faEnvelope, faKey, faCamera} from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
   const {error, getEmail, getPassword, registerHandler,getName, getPhoto, getNumber} = useAuth()
+
     return (
         <div className="sign-up">
            <div className="container sign-container">
@@ -25,7 +26,7 @@ const Register = () => {
                         onBlur={getName}
                         required
                         type="text"
-                        placeholder="Enter your name"
+                        placeholder="Your Name"
                         aria-label="name"
                         aria-describedby="basic-addon1"
                         />
@@ -36,7 +37,7 @@ const Register = () => {
                         required
                          type="email"
                         onBlur={getEmail}
-                        placeholder="Enter your email address"
+                        placeholder="Your Email"
                         aria-label="email"
                         aria-describedby="basic-addon1"
                         />
@@ -47,7 +48,7 @@ const Register = () => {
                         required
                         onBlur={getPassword}
                          type="password"
-                        placeholder="Enter your password"
+                        placeholder="Your Password"
                         aria-label="password"
                         aria-describedby="basic-addon1"
                         />
@@ -58,7 +59,7 @@ const Register = () => {
                         required
                         onBlur={getNumber}
                          type="number"
-                        placeholder="Enter your number"
+                        placeholder="Your Number"
                         aria-label="number"
                         aria-describedby="basic-addon1"
                         />
@@ -68,7 +69,7 @@ const Register = () => {
                         <FormControl
                         onBlur={getPhoto}
                         required
-                        placeholder="Enter your photoURL"
+                        placeholder="Your photoURL"
                         aria-label="photoURL"
                         aria-describedby="basic-addon1"
                         />
