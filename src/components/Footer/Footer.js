@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Footer.css'
 import f1 from '../../images/blog_15-150x150-140x140.jpg'
 import f2 from '../../images/blog_14-150x150-140x140.jpg'
@@ -26,14 +26,14 @@ const Footer = () => {
                     <div className="col col-md-3 col-lg-3 fitness-about">
                         <h3 className="pb-3 fw-bold text-light">About <span className="fit-clr">FitnessGym</span></h3>
                         <div className="">
-                            <Link to="/home" className="text-decoration-none text-info">HOME</Link>
-                            <Link to="/about" className="mx-4 text-decoration-none text-info">ABOUT</Link>
-                            <Link to="/services" className="text-decoration-none text-info">SERVICE</Link>
+                            <NavLink to="/home" className="text-decoration-none text-info">HOME</NavLink>
+                            <NavLink to="/about" className="mx-4 text-decoration-none text-info">ABOUT</NavLink>
+                            <NavLink to="/services" className="text-decoration-none text-info">SERVICE</NavLink>
                         </div> 
                         <div className="">
-                            <Link to="/home" className="text-decoration-none text-info">PACKAGES</Link>
-                            <Link to="/blog" className="mx-4 text-decoration-none text-info">BLOG</Link>
-                            <Link to="/contact" className="text-decoration-none text-info">CONTACT</Link>
+                            <NavLink to="/home" className="text-decoration-none text-info">PACKAGES</NavLink>
+                            <NavLink to="/blog" className="mx-4 text-decoration-none text-info">BLOG</NavLink>
+                            <NavLink to="/contact" className="text-decoration-none text-info">CONTACT</NavLink>
                         </div> 
                         <hr className="text-light" />
                         <p className="text-white-50">©️2021.Professional FitnessGym. <br />Abrar Fahim, all rights reserved</p>

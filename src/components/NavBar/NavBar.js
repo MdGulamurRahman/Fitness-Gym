@@ -24,12 +24,30 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
-                    <Nav.Link as={NavLink} to="/home">HOME</Nav.Link>
-                    <Nav.Link as={NavLink} to="/about#about">ABOUT</Nav.Link>
-                    <Nav.Link as={NavLink} to="/services#services">SERVICE</Nav.Link>
-                    <Nav.Link as={NavLink} to="/package#packages">PACKAGES</Nav.Link>
-                    <Nav.Link as={NavLink} to="/blog#blog">BLOG</Nav.Link>
-                    <Nav.Link as={HashLink} to="/contact#contact">CONTACT</Nav.Link>
+                <Nav.Link activeStyle={{
+                    fontWeight: "bold",
+                     color: "skyblue"
+                     }} as={NavLink} to="/home">HOME</Nav.Link>
+                    <Nav.Link activeStyle={{
+                    fontWeight: "bold",
+                     color: "skyblue"
+                     }} as={NavLink} to="/about#about">ABOUT</Nav.Link>
+                    <Nav.Link activeStyle={{
+                    fontWeight: "bold",
+                     color: "skyblue"
+                     }} as={NavLink} to="/services#services">SERVICE</Nav.Link>
+                    <Nav.Link activeStyle={{
+                    fontWeight: "bold",
+                     color: "skyblue"
+                     }} as={NavLink} to="/package#packages">PACKAGES</Nav.Link>
+                    <Nav.Link activeStyle={{
+                    fontWeight: "bold",
+                     color: "skyblue"
+                     }} as={NavLink} to="/blog#blog">BLOG</Nav.Link>
+                    <Nav.Link activeStyle={{
+                    fontWeight: "bold",
+                     color: "skyblue"
+                     }} as={HashLink} to="/contact#contact">CONTACT</Nav.Link>
                 </Nav>
                 { !displayName ?
                 (<Nav className="ms-auto">

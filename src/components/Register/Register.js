@@ -26,7 +26,7 @@ const Register = () => {
                         onBlur={getName}
                         required
                         type="text"
-                        placeholder="Your Name"
+                        placeholder="Name"
                         aria-label="name"
                         aria-describedby="basic-addon1"
                         />
@@ -37,7 +37,7 @@ const Register = () => {
                         required
                          type="email"
                         onBlur={getEmail}
-                        placeholder="Your Email"
+                        placeholder="Email"
                         aria-label="email"
                         aria-describedby="basic-addon1"
                         />
@@ -48,7 +48,7 @@ const Register = () => {
                         required
                         onBlur={getPassword}
                          type="password"
-                        placeholder="Your Password"
+                        placeholder="Password"
                         aria-label="password"
                         aria-describedby="basic-addon1"
                         />
@@ -59,7 +59,7 @@ const Register = () => {
                         required
                         onBlur={getNumber}
                          type="number"
-                        placeholder="Your Number"
+                        placeholder="Number"
                         aria-label="number"
                         aria-describedby="basic-addon1"
                         />
@@ -69,7 +69,7 @@ const Register = () => {
                         <FormControl
                         onBlur={getPhoto}
                         required
-                        placeholder="Your photoURL"
+                        placeholder="photoURL"
                         aria-label="photoURL"
                         aria-describedby="basic-addon1"
                         />
