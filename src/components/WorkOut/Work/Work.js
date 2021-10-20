@@ -4,11 +4,10 @@ import { Card, CardGroup } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faUser, faCheck} from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
-
 const Work = (props) => {
     const {img, name, duration, step, chest, tricep} = props.work;
     return (
-        <CardGroup>
+            <CardGroup>
             <Card className="work-card">
                 <Card.Img className="h-50" src={img} />
                 <Card.Body>

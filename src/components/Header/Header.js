@@ -7,7 +7,7 @@ import s3 from '../../images/s5.jpg'
 
 const Header = () => {
     return (
-        <div className="header-area">
+        <div className="overflow-hidden header-area">
            <Carousel>
                 <Carousel.Item className="s-area">
                     <img
@@ -26,7 +26,6 @@ const Header = () => {
                     src={s2}
                     alt="Second slide"
                     />
-
                     <Carousel.Caption>
                     <h3 className="text-clr">THE BEST FITNESS</h3>
                     <p className="text-info">Grow your Strength Body</p>
@@ -38,7 +37,6 @@ const Header = () => {
                     src={s3}
                     alt="Third slide"
                     />
-
                     <Carousel.Caption>
                     <h3 className="text-clr">THE BEST FITNESS</h3>
                     <p className="text-info">Grow your Strength Body</p>

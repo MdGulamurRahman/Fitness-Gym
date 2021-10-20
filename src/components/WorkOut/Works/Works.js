@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Work from '../Work/Work';
 import './Works.css'
-
 const Works = () => {
     const [works, setWorks] = useState([]);
     useEffect(()=>{
@@ -11,7 +10,7 @@ const Works = () => {
         .then(data => setWorks(data))
     },[])
     return (
-        <div className="works-area">
+        <div className="overflow-hidden works-area">
             <h1 className="py-5 text-center fw-bold">DAILY <span>WORKOUT</span> SCHEDULES</h1>
             <div className="container works-container">
             <Row xs={1} md={3} className="g-4">

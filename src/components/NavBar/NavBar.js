@@ -9,7 +9,7 @@ const NavBar = () => {
     const {user, logOut} = useAuth()
     const {displayName, photoURL, email} = user;
     return (
-        <div >
+        <div className="overflow-hidden">
             <Navbar className="nav-area" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand to="/home">

@@ -8,7 +8,7 @@ const Trainer = ({trainer}) => {
     return (
         <CardGroup className="overflow-hidden">
             <Card className="train-card">
-                <Card.Img src={img} />
+                <Card.Img className="t-img" src={img} />
                 <Card.Body>
                 <Card.Title className="fw-bold">{name} <FontAwesomeIcon className="train-icon" icon={faDumbbell}/></Card.Title>
                 <Card.Text className="text-success">
